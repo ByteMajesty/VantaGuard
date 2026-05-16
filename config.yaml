@@ -1,0 +1,38 @@
+# VantaGuard Configuration
+
+monitoring:
+  logs:
+    - path: "/var/log/auth.log"
+      patterns:
+        - "Failed password"
+        - "Accepted password"
+        - "invalid user"
+    - path: "/var/log/syslog"
+      patterns:
+        - "error"
+        - "critical"
+        - "denied"
+  
+  processes:
+    suspicious_names:
+      - "nc"
+      - "ncat"
+      - "netcat"
+      - "nmap"
+      - "wireshark"
+      - "tcpdump"
+
+auditor:
+  sensitive_files:
+    - "/etc/passwd"
+    - "/etc/shadow"
+    - "/etc/sudoers"
+    - "/etc/ssh/sshd_config"
+  
+  check_ssh_root_login: true
+  check_empty_passwords: true
+  check_open_ports: true
+
+alerts:
+  log_file: "vantaguard.log"
+  console_output: true

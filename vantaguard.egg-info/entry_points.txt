@@ -1,0 +1,2 @@
+[console_scripts]
+vantaguard = vantaguard.__main__:main
