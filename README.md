@@ -67,4 +67,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 **ByteMajesty**
 - GitHub: [@Matheus](https://github.com/matheus0code)
 - Project Link: [https://github.com/matheus0code/VantaGuard](https://github.com/matheus0code/VantaGuard)
-*Developed with a focus on performance and absolute security.*
+- *Developed with a focus on performance and absolute security.*
