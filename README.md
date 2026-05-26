@@ -65,8 +65,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 ## 👤 Author
 
 **ByteMajesty**
-- GitHub: [@ByteMajesty](https://github.com/ByteMajesty)
-- Project Link: [https://github.com/ByteMajesty/VantaGuard](https://github.com/ByteMajesty/VantaGuard)
-
----
+- GitHub: [@Matheus](https://github.com/matheus0code)
+- Project Link: [https://github.com/matheus0code/VantaGuard](https://github.com/matheus0code/VantaGuard)
 *Developed with a focus on performance and absolute security.*
